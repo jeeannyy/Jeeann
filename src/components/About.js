@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/About.css';
 import FadeInSection from './FadeInSection';
 import profilePic from '../assets/me.jpg';
@@ -58,7 +58,7 @@ const About = () => {
 					{two}
 				</div>
 				<div className='about-image'>
-					<img src={profilePic} alt='My profile picture' />
+					<img src={profilePic} alt='My profile' />
 				</div>
 			</div>
 		</div>

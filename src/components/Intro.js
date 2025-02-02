@@ -16,8 +16,12 @@ const Intro = () => {
 			</Typist>
 			<div className='intro-subtitle'>I create stuff sometimes.</div>
 			<div className='intro-desc'>
-				I'm a Software Engineer based in London 🇬🇧, passionate about
-				human-computer interactions, media arts, AI, and everything in between.
+				I'm a Software Engineer based in London{' '}
+				<span role='img' aria-label='United Kingdom flag'>
+					🇬🇧
+				</span>
+				, passionate about human-computer interactions, media arts, AI, and
+				everything in between.
 			</div>
 			<a href='mailto:jeeann.dev@gmail.com' className='intro-contact'>
 				<EmailRoundedIcon />

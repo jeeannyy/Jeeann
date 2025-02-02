@@ -5,17 +5,20 @@ const FadeInSection = ({ children, delay }) => {
 	const domRef = useRef(null);
 
 	useEffect(() => {
+		const targetNode = domRef.current;
 		const observer = new IntersectionObserver(([entry]) => {
 			if (entry.isIntersecting) {
 				setVisible(true);
 			}
 		});
-		if (domRef.current) {
-			observer.observe(domRef.current);
+
+		if (targetNode) {
+			observer.observe(targetNode);
 		}
+
 		return () => {
-			if (domRef.current) {
-				observer.unobserve(domRef.current);
+			if (targetNode) {
+				observer.unobserve(targetNode);
 			}
 		};
 	}, []);
