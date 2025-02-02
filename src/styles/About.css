@@ -9,7 +9,7 @@
 #about {
 	padding-left: 15%;
 	padding-right: 25%;
-	min-height: 105vh;
+	min-height: 100vh;
 }
 
 .about-description ul {
@@ -61,6 +61,7 @@
 }
 
 .about-image img {
+	width: 120%;
 	max-width: 300px;
 	height: auto;
 	border-radius: 10px;

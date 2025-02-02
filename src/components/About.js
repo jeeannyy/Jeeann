@@ -17,7 +17,7 @@ const About = () => {
 			</a>{' '}
 			at <b>Soongsil University</b> in Seoul, South Korea. I was honored with{' '}
 			<b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
-			<b>Europe's largest women's hackathon</b> in 2022.
+			<b>Europe's largest women's hackathon 2022</b>.
 		</p>
 	);
 

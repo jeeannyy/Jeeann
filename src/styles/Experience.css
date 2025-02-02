@@ -1,117 +1,117 @@
 #experience {
-  padding-left: 15%;
-  min-height: 100vh;
+	padding-left: 15%;
+	min-height: 100vh;
 }
 
 .joblist-job-title {
-  font-family: 'DungGeunMo', sans-serif;
-  font-size: 28px;
-  font-weight: bold;
-  color: var(--lightest-slate);
+	font-family: 'DungGeunMo', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: var(--lightest-slate);
 }
 
 .joblist-job-company {
-  font-family: 'DungGeunMo', sans-serif;
-  font-size: 28px;
-  color: var(--green-bright);
-  font-weight: bold;
+	font-family: 'DungGeunMo', sans-serif;
+	font-size: 28px;
+	color: var(--green-bright);
+	font-weight: bold;
 }
 
 .joblist-duration {
-  font-family: 'DungGeunMo', sans-serif;
-  font-size: 25px;
-  color: var(--slate);
+	font-family: 'DungGeunMo', sans-serif;
+	font-size: 25px;
+	color: var(--slate);
 }
 
 #vertical-tabpanel {
-  margin-top: -28px;
-  padding-left: 20px;
+	margin-top: -28px;
+	padding-left: 20px;
 }
 
 .MuiTab-wrapper {
-  font-size: 25px;
-  text-align: left;
-  align-items: flex-start !important;
-  font-family: 'DungGeunMo', sans-serif;
-  margin-right: 15px;
+	font-size: 25px;
+	text-align: left;
+	align-items: flex-start !important;
+	font-family: 'DungGeunMo', sans-serif;
+	margin-right: 15px;
 }
 
 .MuiButtonBase-root {
-  outline: none !important;
-  color: var(--lightest-slate) !important;
+	outline: none !important;
+	color: var(--lightest-slate) !important;
 }
 
 .PrivateTabIndicator-colorSecondary-5 {
-  background-color: var(--green-bright) !important;
+	background-color: var(--green-bright) !important;
 }
 .jss5 {
-  background-color: var(--green-bright) !important;
+	background-color: var(--green-bright) !important;
 }
 .makeStyles-tabs-2 {
-  border-right: 1px solid var(--lightest-navy) !important;
+	border-right: 1px solid var(--lightest-navy) !important;
 }
 #experience .MuiTab-root {
-  padding: 6px 20px;
+	padding: 6px 20px;
 }
 .MuiButtonBase-root:focus {
-  color: var(--green-bright) !important;
+	color: var(--green-bright) !important;
 }
 
 ul {
-  list-style: none;
-  margin-left: -40px;
+	list-style: none;
+	margin-left: -40px;
 }
 
 .job-description li::before {
-  content: '▹    ';
-  color: var(--green-bright);
-  position: absolute;
-  left: 0;
+	content: '▹    ';
+	color: var(--green-bright);
+	position: absolute;
+	left: 0;
 }
 
 .job-description li {
-  position: relative;
-  padding-left: 30px;
-  padding-bottom: 16px;
-  font-size: 25px;
-  color: var(--slate);
+	position: relative;
+	padding-left: 30px;
+	padding-bottom: 16px;
+	font-size: 25px;
+	color: var(--slate);
 }
 
 .job-description {
-  padding-top: 24px;
-  max-width: 650px;
-  font-family: 'DungGeunMo', sans-serif;
-  font-size: 25px;
+	padding-top: 24px;
+	max-width: 650px;
+	font-family: 'DungGeunMo', sans-serif;
+	font-size: 25px;
 }
 
 .job-description a,
 .job-description b {
-  font-size: 25px;
-  font-weight: bold;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
-  #experience {
-    padding-left: unset;
-    padding-right: unset;
-  }
+	#experience {
+		padding-left: unset;
+		padding-right: unset;
+	}
 
-  .jss1 {
-    height: unset !important;
-    flex-direction: column !important;
-  }
+	.jss1 {
+		height: unset !important;
+		flex-direction: column !important;
+	}
 
-  .makeStyles-root-1 {
-    height: unset !important;
-    width: unset;
-    flex-direction: column;
-  }
+	.makeStyles-root-1 {
+		height: unset !important;
+		width: unset;
+		flex-direction: column;
+	}
 
-  .joblist-job-title {
-    font-size: 22px;
-  }
+	.joblist-job-title {
+		font-size: 22px;
+	}
 
-  .joblist-job-company {
-    font-size: 22px;
-  }
+	.joblist-job-company {
+		font-size: 22px;
+	}
 }
