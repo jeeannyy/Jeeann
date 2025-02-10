@@ -5,6 +5,12 @@ import FadeInSection from './FadeInSection';
 import ExternalLinks from './ExternalLinks';
 
 const projects = {
+	Feelings: {
+		desc: 'An emotion-based music recommendation app.',
+		techStack: 'React, TypeScript, Node.js, Express, and MongoDB',
+		link: 'https://github.com/jeeannyy/feelings',
+		open: 'https://jeeannyy.github.io/feelings',
+	},
 	'Kimchi shop': {
 		desc: 'An e-commerce app for selling Korea’s korgeous kimchi.',
 		techStack: 'Redux, React, React Router, Axios, Bootstrap',
