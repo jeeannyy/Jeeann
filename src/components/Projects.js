@@ -7,7 +7,7 @@ import ExternalLinks from './ExternalLinks';
 const projects = {
 	Feeling: {
 		desc: 'An emotion-based music recommendation app.',
-		techStack: 'React, TypeScript, Node.js, Express, and MongoDB',
+		techStack: 'React, TypeScript, Node.js, Express, MongoDB',
 		link: 'https://github.com/jeeannyy/feeling',
 		open: 'https://tellmeyourvibe.vercel.app',
 	},
@@ -20,16 +20,9 @@ const projects = {
 
 	'Yummy in my tummy': {
 		desc: 'A cozy and clean recipe app to collect and manage your favorite dishes.',
-		techStack: 'React, Jest',
+		techStack: 'TypeScript, React, React Router, Jest',
 		link: 'https://github.com/jeeannyy/Yummy-in-my-tummy',
 		open: 'https://recipe-jeeannyy.vercel.app/',
-	},
-
-	'Harry Potter House Test': {
-		desc: 'A fun quiz app that sorts you into your Hogwarts house.',
-		techStack: 'React, React Router, SCSS',
-		link: 'https://github.com/chingu-voyages/v42-geckos-team-12',
-		open: 'https://chingu-voyages.github.io/v42-geckos-team-12',
 	},
 
 	'Coin Tracker': {
@@ -44,6 +37,12 @@ const projects = {
 		techStack: 'JavaScript, HTML, CSS',
 		link: 'https://github.com/jeeannyy/Paint-app',
 		open: 'https://painting-jeeann.netlify.app',
+	},
+	'Harry Potter House Test': {
+		desc: 'A fun quiz app that sorts you into your Hogwarts house.',
+		techStack: 'React, React Router, SCSS',
+		link: 'https://github.com/chingu-voyages/v42-geckos-team-12',
+		open: 'https://chingu-voyages.github.io/v42-geckos-team-12',
 	},
 
 	'Bad Religion': {

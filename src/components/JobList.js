@@ -84,7 +84,7 @@ const JobList = () => {
 	const experienceItems = {
 		StoreBoost: {
 			jobTitle: 'Frontend Developer @',
-			duration: 'FEB 2023 - Present',
+			duration: 'FEB 2023 - FEB 2025',
 			desc: [
 				'Led front-end development, building and maintaining React & TypeScript media planning applications for internal admin and client-facing platforms',
 				'Tech Stack: React, TypeScript, Material UI, Chart JS, Styled Components, Playwright',
@@ -103,8 +103,8 @@ const JobList = () => {
 			duration: 'OCT 2022',
 			desc: [
 				'Received the Best UX Award at Europe’s largest hackathon for women',
-				'Developed ‘Banktree’, an impact investment app promoting sustainable investing',
-				'Designed the UI in Figma, built the prototype with React',
+				'Developed ‘Banktree,’ an impact investment app funding green projects via round-ups',
+				'Designed the UI in Figma and built the prototype with React.js',
 			],
 		},
 
@@ -112,7 +112,7 @@ const JobList = () => {
 			jobTitle: 'Open Source Contributor @',
 			duration: 'SEP 2022 - Present',
 			desc: [
-				'Translated technical articles from English to Korean, averaging 1K views per article and helping Korean developers access high-quality learning resources',
+				'Translated technical articles from English to Korean, averaging 5K views per article and helping non-English-speaking developers access high-quality learning resources',
 			],
 		},
 
@@ -120,8 +120,8 @@ const JobList = () => {
 			jobTitle: 'AI Data Operator Specialist @',
 			duration: 'SEP 2020 - FEB 2022',
 			desc: [
-				'Collaborated with the AI-Lab-NLP-Machine Learning team on a Machine Translation Project and curated documentation on Korean trends',
-				'Worked closely with internal and global teams to establish QA policies for comment sections and translations',
+				'Collaborated with the AI-Lab NLP & Machine Learning team on a machine translation project and curated documentation on Korean trends',
+				'Worked closely with internal and global teams to establish QA policies for comment sections and translation',
 			],
 		},
 	};
