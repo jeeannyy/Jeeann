@@ -9,7 +9,7 @@ const projects = {
 		desc: 'An emotion-based music recommendation app.',
 		techStack: 'React, TypeScript, Node.js, Express, and MongoDB',
 		link: 'https://github.com/jeeannyy/feeling',
-		open: 'https://tellmeyourvibe.vercel.app/',
+		open: 'https://tellmeyourvibe.vercel.app',
 	},
 	'Kimchi shop': {
 		desc: 'An e-commerce app for selling Korea’s korgeous kimchi.',
@@ -17,23 +17,19 @@ const projects = {
 		link: 'https://github.com/jeeannyy/kimchi-shop',
 		open: 'https://kimchi-shop.netlify.app/kimchi-shop',
 	},
-	'Paint app': {
-		desc: 'A paint app for all ages.',
-		techStack: 'JavaScript, HTML, CSS',
-		link: 'https://github.com/jeeannyy/Paint-app',
-		open: 'https://painting-jeeann.netlify.app',
+
+	'Yummy in my tummy': {
+		desc: 'A cozy and clean recipe app to collect and manage your favorite dishes.',
+		techStack: 'React, Jest',
+		link: 'https://github.com/jeeannyy/Yummy-in-my-tummy',
+		open: 'https://recipe-jeeannyy.vercel.app/',
 	},
+
 	'Harry Potter House Test': {
 		desc: 'A fun quiz app that sorts you into your Hogwarts house.',
 		techStack: 'React, React Router, SCSS',
 		link: 'https://github.com/chingu-voyages/v42-geckos-team-12',
 		open: 'https://chingu-voyages.github.io/v42-geckos-team-12',
-	},
-	'Dice game': {
-		desc: 'A dice game made with Vanilla JS.',
-		techStack: 'JavaScript, HTML, CSS',
-		link: 'https://github.com/jeeannyy/Dice-Game',
-		open: 'https://dicegame-jeeann.netlify.app',
 	},
 
 	'Coin Tracker': {
@@ -42,50 +38,63 @@ const projects = {
 		link: 'https://github.com/jeeannyy/Coin-Tracker',
 		open: 'https://jeeannyy.github.io/Coin-Tracker/',
 	},
-	'News app': {
-		desc: 'A news app where users can view, discuss, and rate articles.',
-		techStack: 'React, React Router, Axios, CSS',
-		link: 'https://github.com/jeeannyy/News-app',
-		open: 'https://jeeannyy.github.io/News-app',
-	},
 
-	'Drum Kit': {
-		desc: 'A fun and interactive drum app anyone can play.',
+	'Paint app': {
+		desc: 'A paint app for all ages.',
 		techStack: 'JavaScript, HTML, CSS',
-		link: 'https://drumkit-jeeann.netlify.app',
-		open: 'https://drumkit-jeeann.netlify.app',
+		link: 'https://github.com/jeeannyy/Paint-app',
+		open: 'https://painting-jeeann.netlify.app',
 	},
 
-	'Todo Todo': {
-		desc: 'A simple and clean to-do list app.',
-		techStack: 'React, CSS',
-		link: 'https://github.com/jeeannyy/TodoTodo',
-		open: 'https://jeeannyy.github.io/TodoTodo/',
-	},
-	'Weather app': {
-		desc: "A weather app that provides real-time forecasts based on the user's location",
-		techStack: 'React Native',
-		link: 'https://github.com/jeeannyy/Weather-app',
-		open: '',
-	},
-	Kokoatalk: {
-		desc: 'A clone of the Korean messaging app KakaoTalk.',
-		techStack: 'HTML, CSS',
-		link: 'https://github.com/jeeannyy/Kokoatalk',
-		open: 'https://kokoatalk-jeeann.netlify.app/',
-	},
-	London: {
-		desc: 'A poster for practicing CSS grid and flex.',
-		techStack: 'HTML, CSS',
-		link: 'https://github.com/jeeannyy/London',
-		open: '',
-	},
 	'Bad Religion': {
-		desc: 'A poster for practicing CSS grid and flex.',
+		desc: 'An experimental poster design built with Grid and Flexbox.',
 		techStack: 'HTML, CSS',
 		link: 'https://github.com/jeeannyy/Bad-Religion',
 		open: '',
 	},
+	// 'News app': {
+	// 	desc: 'A news app where users can view, discuss, and rate articles.',
+	// 	techStack: 'React, React Router, Axios, CSS',
+	// 	link: 'https://github.com/jeeannyy/News-app',
+	// 	open: 'https://jeeannyy.github.io/News-app',
+	// },
+	// 'Dice game': {
+	// 	desc: 'A dice game made with Vanilla JS.',
+	// 	techStack: 'JavaScript, HTML, CSS',
+	// 	link: 'https://github.com/jeeannyy/Dice-Game',
+	// 	open: 'https://dicegame-jeeann.netlify.app',
+	// },
+	// 'Drum Kit': {
+	// 	desc: 'A fun and interactive drum app anyone can play.',
+	// 	techStack: 'JavaScript, HTML, CSS',
+	// 	link: 'https://drumkit-jeeann.netlify.app',
+	// 	open: 'https://drumkit-jeeann.netlify.app',
+	// },
+
+	// 'Todo Todo': {
+	// 	desc: 'A simple and clean to-do list app.',
+	// 	techStack: 'React, CSS',
+	// 	link: 'https://github.com/jeeannyy/TodoTodo',
+	// 	open: 'https://jeeannyy.github.io/TodoTodo/',
+	// },
+	// 'Weather app': {
+	// 	desc: "A weather app that provides real-time forecasts based on the user's location",
+	// 	techStack: 'React Native',
+	// 	link: 'https://github.com/jeeannyy/Weather-app',
+	// 	open: '',
+	// },
+	// Kokoatalk: {
+	// 	desc: 'A clone of the Korean messaging app KakaoTalk.',
+	// 	techStack: 'HTML, CSS',
+	// 	link: 'https://github.com/jeeannyy/Kokoatalk',
+	// 	open: 'https://kokoatalk-jeeann.netlify.app/',
+	// },
+	// London: {
+	// 	desc: 'A poster for practicing CSS grid and flex.',
+	// 	techStack: 'HTML, CSS',
+	// 	link: 'https://github.com/jeeannyy/London',
+	// 	open: '',
+	// },
 };
 
 const Projects = () => {

@@ -12,10 +12,8 @@ const About = () => {
 				<b>StoreBoost</b>
 			</a>
 			. I studied{' '}
-			<a href='https://eng.ssu.ac.kr/'>
-				Computer Science and Interaction Design
-			</a>{' '}
-			at <b>Soongsil University</b> in Seoul, South Korea. I was honored with{' '}
+			<a href='https://eng.ssu.ac.kr/'>Computer Science and Media</a> at{' '}
+			<b>Soongsil University</b> in Seoul, South Korea. I was honored with{' '}
 			<b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
 			<b>Europe's largest women's hackathon</b>.
 		</p>
@@ -26,7 +24,7 @@ const About = () => {
 			Outside of work, I enjoy traveling and discovering new artists and music
 			(especially R&B & Jazz). I love trying out healthy recipes and taking care
 			of my plants. I also cherish spending time with my family and swimming in
-			alpine lakes in the summer.
+			lakes in the summer.
 		</p>
 	);
 
