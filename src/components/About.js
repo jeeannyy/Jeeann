@@ -6,32 +6,21 @@ import profilePic from '../assets/me.jpg';
 const About = () => {
 	const one = (
 		<p>
-			{/* I am currently a <b>Frontend Engineer</b> at
-			<a href='https://www.storeboost.com/'>
-				{' '}
-				<b>StoreBoost</b>
-			</a>
-			. I studied{' '}
-			<a href='https://eng.ssu.ac.kr/'>Computer Science and Media</a> at{' '}
-			<b>Soongsil University</b> in Seoul, South Korea. I was honored with{' '}
-			<b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
-			<b>Europe's largest women's hackathon</b>. */}
-			I am a <b style={{ color: '#64ffda' }}>Full-stack developer</b> with{' '}
+			I am a <b style={{ color: '#64ffda' }}>Full-stack Developer</b> with{' '}
 			<b>2+ years of experience</b>. With a background in{' '}
 			<b>Computer Science and Interaction Design</b>, I bring a unique
 			problem-solving perspective and a keen eye for UI/UX. My passion for HCI
 			earned me <b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
-			<b>Europe's largest women's hackathon</b>. I like using technology to help
-			others and sharing knowledge.
+			<b>Europe's largest women's hackathon</b>. I enjoy using technology to
+			help others and sharing knowledge.
 		</p>
 	);
 
 	const two = (
 		<p>
-			Outside of work, I enjoy traveling and discovering new artists and music
-			(especially R&B & Jazz). I love trying out healthy recipes and taking care
-			of my plants. I also cherish spending time with my family and swimming in
-			lakes in the summer.
+			Outside of work, I love travelling and discovering new music and artists —
+			especially R&B and jazz. I'm also into trying out healthy recipes, taking
+			care of my little jungle of plants, and swimming in lakes.
 		</p>
 	);
 
@@ -39,8 +28,8 @@ const About = () => {
 		'React',
 		'TypeScript',
 		'Javascript ES6+',
+		'Next.js',
 		'Node.js (Express.js)',
-		'HTML5 & CSS3',
 		'Git',
 	];
 
