@@ -7,20 +7,26 @@ const About = () => {
 	const one = (
 		<p>
 			I am a <b style={{ color: '#64ffda' }}>Full-stack Developer</b> with{' '}
-			<b>2+ years of experience</b>. With a background in{' '}
-			<b>Computer Science and Interaction Design</b>, I bring a unique
-			problem-solving perspective and a keen eye for UI/UX. My passion for HCI
-			earned me <b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
-			<b>Europe's largest women's hackathon</b>. I enjoy using technology to
-			help others and sharing knowledge.
+			<b>2+ years of experience</b>. Before starting this journey, I studied{' '}
+			<b b style={{ color: '#64ffda' }}>
+				Computer Science, Interaction Design and Media
+			</b>
+			, and worked as a{' '}
+			<b b style={{ color: '#64ffda' }}>
+				marketing specialist
+			</b>
+			. With this background, I bring a unique problem-solving perspective and a
+			keen eye for UI/UX. My passion for HCI earned me{' '}
+			<b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
+			<b>Europe's largest women's hackathon</b>.
 		</p>
 	);
 
 	const two = (
 		<p>
 			Outside of work, I love travelling and discovering new music and artists —
-			especially R&B and jazz. I'm also into trying out healthy recipes, taking
-			care of my little jungle of plants, and swimming in lakes.
+			especially R&B and jazz. I'm also into taking care of my plants, and
+			swimming in lakes.
 		</p>
 	);
 

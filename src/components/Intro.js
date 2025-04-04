@@ -45,7 +45,7 @@ const Intro = () => {
 
 	const handleClick = (e) => {
 		e.preventDefault();
-		setButtonText("I'm shy 🦭");
+		setButtonText('Sorry, I have social anxiety! 💗');
 	};
 
 	useEffect(() => {

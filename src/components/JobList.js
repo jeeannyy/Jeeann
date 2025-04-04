@@ -86,8 +86,9 @@ const JobList = () => {
 			jobTitle: 'Frontend Developer @',
 			duration: 'FEB 2023 - FEB 2025',
 			desc: [
-				'Led front-end development, building and maintaining React & TypeScript media planning applications for internal admin and client-facing platforms',
-				'Tech Stack: React, TypeScript, Material UI, Chart JS, Styled Components, Playwright',
+				'Led front-end development of React & TypeScript media planning apps, building core features like Campaign Dashboard, Footfall Analytics, and Creative Editor',
+				'Built real-time interactive data visualisations using MUI & Chart.js, increasing internal team engagement by 50% and significantly improving data-driven decision making',
+				'Enhanced app stability with React Sentry, reducing frontend issue resolution time by ~30%',
 			],
 		},
 		'Code First Girls': {
