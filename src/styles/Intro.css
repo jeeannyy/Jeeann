@@ -59,6 +59,12 @@ canvas {
 	padding-bottom: 50px;
 }
 
+.intro-contact-container {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
 .intro-contact {
 	font-size: 20px;
 	font-weight: bolder;
@@ -107,6 +113,11 @@ b {
 		padding-bottom: 40px;
 	}
 
+	.intro-contact-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
 	.intro-contact {
 		font-size: 16px;
 		align-self: center;

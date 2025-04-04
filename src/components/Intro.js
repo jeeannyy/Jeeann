@@ -3,6 +3,7 @@ import '../styles/Intro.css';
 import Typist from 'react-typist';
 import 'react-typist/dist/Typist.css';
 import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 const Intro = () => {
 	const buttonRef = useRef(null);
@@ -76,21 +77,27 @@ const Intro = () => {
 				, passionate about human-computer interactions, media arts, AI, and
 				everything in between.
 			</div>
-			<a
-				onClick={handleClick}
-				ref={buttonRef}
-				className='intro-contact'
-				onMouseEnter={() => setIsActive(true)}
-				style={{
-					position: isActive ? 'fixed' : 'static',
-					top: isActive ? position.top : undefined,
-					left: isActive ? position.left : undefined,
-					transition: 'top 0.2s ease, left 0.2s ease',
-				}}
-			>
-				<PhoneInTalkOutlinedIcon />
-				{`  ${buttonText}`}
-			</a>
+			<div className='intro-contact-container'>
+				<a
+					onClick={handleClick}
+					ref={buttonRef}
+					className='intro-contact'
+					onMouseEnter={() => setIsActive(true)}
+					style={{
+						position: isActive ? 'fixed' : 'static',
+						top: isActive ? position.top : undefined,
+						left: isActive ? position.left : undefined,
+						transition: 'top 0.2s ease, left 0.2s ease',
+					}}
+				>
+					<PhoneInTalkOutlinedIcon />
+					{`  ${buttonText}`}
+				</a>
+				<a href='mailto:jeeann.dev@gmail.com' className='intro-contact'>
+					<EmailOutlinedIcon />
+					{` Send a message`}
+				</a>
+			</div>
 		</div>
 	);
 };
