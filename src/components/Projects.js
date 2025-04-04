@@ -38,7 +38,7 @@ const projects = {
 		open: 'https://jeeannyy.github.io/Coin-Tracker/',
 	},
 
-	'Paint app': {
+	Scribbly: {
 		desc: 'A drawing app that lets you sketch freely on a canvas',
 		techStack: 'JavaScript, HTML, CSS',
 		link: 'https://github.com/jeeannyy/Paint-app',
