@@ -51,7 +51,18 @@ const projects = {
 		link: 'https://github.com/jeeannyy/Dice-Game',
 		open: 'https://dicegame-jeeann.netlify.app',
 	},
-
+	'Drum Kit': {
+		desc: 'A fun and interactive drum app anyone can play.',
+		techStack: 'JavaScript, HTML, CSS',
+		link: 'https://github.com/jeeannyy/Drum-Kit',
+		open: 'https://drumkit-jeeann.netlify.app',
+	},
+	London: {
+		desc: 'An experimental poster design built with Grid and Flexbox',
+		techStack: 'HTML, CSS',
+		link: 'https://github.com/jeeannyy/London',
+		open: '',
+	},
 	'Bad Religion': {
 		desc: 'An experimental poster design built with Grid and Flexbox',
 		techStack: 'HTML, CSS',
@@ -63,13 +74,6 @@ const projects = {
 	// 	techStack: 'React, React Router, Axios, CSS',
 	// 	link: 'https://github.com/jeeannyy/News-app',
 	// 	open: 'https://jeeannyy.github.io/News-app',
-	// },
-
-	// 'Drum Kit': {
-	// 	desc: 'A fun and interactive drum app anyone can play.',
-	// 	techStack: 'JavaScript, HTML, CSS',
-	// 	link: 'https://drumkit-jeeann.netlify.app',
-	// 	open: 'https://drumkit-jeeann.netlify.app',
 	// },
 
 	// 'Todo Todo': {
@@ -89,12 +93,6 @@ const projects = {
 	// 	techStack: 'HTML, CSS',
 	// 	link: 'https://github.com/jeeannyy/Kokoatalk',
 	// 	open: 'https://kokoatalk-jeeann.netlify.app/',
-	// },
-	// London: {
-	// 	desc: 'A poster for practicing CSS grid and flex.',
-	// 	techStack: 'HTML, CSS',
-	// 	link: 'https://github.com/jeeannyy/London',
-	// 	open: '',
 	// },
 };
 

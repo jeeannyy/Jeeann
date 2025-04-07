@@ -83,7 +83,7 @@ const JobList = () => {
 
 	const experienceItems = {
 		StoreBoost: {
-			jobTitle: 'Frontend Developer @',
+			jobTitle: 'Software Engineer @',
 			duration: 'FEB 2023 - FEB 2025',
 			desc: [
 				'Led front-end development of React & TypeScript media planning apps, building core features like Campaign Dashboard, Footfall Analytics, and Creative Editor',
@@ -127,7 +127,7 @@ const JobList = () => {
 		},
 	};
 
-	const handleChange = (event, newValue) => {
+	const handleChange = (newValue) => {
 		setValue(newValue);
 	};
 

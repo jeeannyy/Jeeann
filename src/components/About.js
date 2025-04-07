@@ -9,14 +9,14 @@ const About = () => {
 			I am a <b style={{ color: '#64ffda' }}>Full-stack Developer</b> with{' '}
 			<b>2+ years of experience</b>. Before starting this journey, I studied{' '}
 			<b b style={{ color: '#64ffda' }}>
-				Computer Science, Interaction Design and Media
+				CS, Interaction Design and Media
 			</b>
 			, and worked as a{' '}
 			<b b style={{ color: '#64ffda' }}>
 				marketing specialist
 			</b>
-			. With this background, I bring a unique problem-solving perspective and a
-			keen eye for UI/UX. My passion for HCI earned me{' '}
+			. With this multidisciplinary background, I bring a unique problem-solving
+			perspective and a keen eye for UI/UX. My passion for HCI earned me{' '}
 			<b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
 			<b>Europe's largest women's hackathon</b>.
 		</p>
@@ -25,7 +25,7 @@ const About = () => {
 	const two = (
 		<p>
 			Outside of work, I love travelling and discovering new music and artists —
-			especially R&B and jazz. I'm also into taking care of my plants, and
+			especially R&B and jazz. I'm also into exploring healthy recipes and
 			swimming in lakes.
 		</p>
 	);
