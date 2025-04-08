@@ -23,7 +23,12 @@ const projects = {
 		link: 'https://github.com/jeeannyy/Hogwarts-House-Sorting-Quiz',
 		open: 'https://hogwarts-house-sorting-quiz.vercel.app/',
 	},
-
+	Scribbly: {
+		desc: 'A drawing app that lets you sketch freely on a canvas',
+		techStack: 'JavaScript, HTML, CSS',
+		link: 'https://github.com/jeeannyy/Paint-app',
+		open: 'https://painting-jeeann.netlify.app',
+	},
 	'Yummy in my tummy': {
 		desc: 'A recipe app to collect and manage your favorite dishes',
 		techStack: 'TypeScript, React, React Router, Jest',
@@ -38,19 +43,6 @@ const projects = {
 		open: 'https://jeeannyy.github.io/Coin-Tracker/',
 	},
 
-	Scribbly: {
-		desc: 'A drawing app that lets you sketch freely on a canvas',
-		techStack: 'JavaScript, HTML, CSS',
-		link: 'https://github.com/jeeannyy/Paint-app',
-		open: 'https://painting-jeeann.netlify.app',
-	},
-
-	'Dice game': {
-		desc: 'A dice game where players roll to get the highest score and compete to win',
-		techStack: 'JavaScript, HTML, CSS',
-		link: 'https://github.com/jeeannyy/Dice-Game',
-		open: 'https://dicegame-jeeann.netlify.app',
-	},
 	'Drum Kit': {
 		desc: 'A fun and interactive drum app anyone can play.',
 		techStack: 'JavaScript, HTML, CSS',
@@ -69,6 +61,12 @@ const projects = {
 		link: 'https://github.com/jeeannyy/Bad-Religion',
 		open: '',
 	},
+	// 'Dice game': {
+	// 	desc: 'A dice game where players roll to get the highest score and compete to win',
+	// 	techStack: 'JavaScript, HTML, CSS',
+	// 	link: 'https://github.com/jeeannyy/Dice-Game',
+	// 	open: 'https://dicegame-jeeann.netlify.app',
+	// },
 	// 'News app': {
 	// 	desc: 'A news app where users can view, discuss, and rate articles.',
 	// 	techStack: 'React, React Router, Axios, CSS',
