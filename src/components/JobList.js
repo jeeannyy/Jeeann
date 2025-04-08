@@ -127,7 +127,7 @@ const JobList = () => {
 		},
 	};
 
-	const handleChange = (newValue) => {
+	const handleChange = (event, newValue) => {
 		setValue(newValue);
 	};
 

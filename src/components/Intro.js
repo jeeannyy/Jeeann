@@ -2,8 +2,8 @@ import React, { useRef, useState, useEffect } from 'react';
 import '../styles/Intro.css';
 import Typist from 'react-typist';
 import 'react-typist/dist/Typist.css';
-import PhoneInTalkOutlinedIcon from '@mui/icons-material/PhoneInTalkOutlined';
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import PhoneInTalkOutlinedIcon from '@material-ui/icons/PhoneInTalkOutlined';
+import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 
 const Intro = () => {
 	const buttonRef = useRef(null);
