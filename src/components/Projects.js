@@ -5,6 +5,12 @@ import FadeInSection from './FadeInSection';
 import ExternalLinks from './ExternalLinks';
 
 const projects = {
+	PookieBooth: {
+		desc: 'A vintage-style photobooth app for capturing and downloading a custom photo strip',
+		techStack: 'React, TypeScript, HTML2Canvas',
+		link: 'https://github.com/jeeannyy/PookieBooth',
+		open: 'https://pookiebooth.vercel.app',
+	},
 	Feeling: {
 		desc: 'An emotion-based music recommendation app',
 		techStack: 'React, TypeScript, Node.js, Express, MongoDB',
@@ -23,74 +29,44 @@ const projects = {
 		link: 'https://github.com/jeeannyy/Hogwarts-House-Sorting-Quiz',
 		open: 'https://hogwarts-house-sorting-quiz.vercel.app/',
 	},
-	Scribbly: {
-		desc: 'A drawing app that lets you sketch freely on a canvas',
-		techStack: 'JavaScript, HTML, CSS',
-		link: 'https://github.com/jeeannyy/Paint-app',
-		open: 'https://painting-jeeann.netlify.app',
-	},
+
 	'Yummy in my tummy': {
 		desc: 'A recipe app to collect and manage your favorite dishes',
 		techStack: 'TypeScript, React, React Router, Jest',
 		link: 'https://github.com/jeeannyy/Yummy-in-my-tummy',
 		open: 'https://recipe-jeeannyy.vercel.app/',
 	},
-
-	'Coin Tracker': {
-		desc: 'A coin tracker showing real-time rankings, price charts, and history',
-		techStack: 'React, TypeScript, Styled-components',
-		link: 'https://github.com/jeeannyy/Coin-Tracker',
-		open: 'https://jeeannyy.github.io/Coin-Tracker/',
-	},
-
-	'Drum Kit': {
-		desc: 'A fun and interactive drum app anyone can play.',
+	Scribbly: {
+		desc: 'A drawing app that lets you sketch freely on a canvas',
 		techStack: 'JavaScript, HTML, CSS',
-		link: 'https://github.com/jeeannyy/Drum-Kit',
-		open: 'https://drumkit-jeeann.netlify.app',
+		link: 'https://github.com/jeeannyy/Paint-app',
+		open: 'https://painting-jeeann.netlify.app',
 	},
-	London: {
-		desc: 'An experimental poster design built with Grid and Flexbox',
-		techStack: 'HTML, CSS',
-		link: 'https://github.com/jeeannyy/London',
-		open: '',
-	},
+
+	// 'Drum Kit': {
+	// 	desc: 'A fun and interactive drum app anyone can play.',
+	// 	techStack: 'JavaScript, HTML, CSS',
+	// 	link: 'https://github.com/jeeannyy/Drum-Kit',
+	// 	open: 'https://drumkit-jeeann.netlify.app',
+	// },
+
 	'Bad Religion': {
 		desc: 'An experimental poster design built with Grid and Flexbox',
 		techStack: 'HTML, CSS',
 		link: 'https://github.com/jeeannyy/Bad-Religion',
 		open: '',
 	},
-	// 'Dice game': {
-	// 	desc: 'A dice game where players roll to get the highest score and compete to win',
-	// 	techStack: 'JavaScript, HTML, CSS',
-	// 	link: 'https://github.com/jeeannyy/Dice-Game',
-	// 	open: 'https://dicegame-jeeann.netlify.app',
+	// 'Coin Tracker': {
+	// 	desc: 'A coin tracker showing real-time rankings, price charts, and history',
+	// 	techStack: 'React, TypeScript, Styled-components',
+	// 	link: 'https://github.com/jeeannyy/Coin-Tracker',
+	// 	open: 'https://jeeannyy.github.io/Coin-Tracker/',
 	// },
-	// 'News app': {
-	// 	desc: 'A news app where users can view, discuss, and rate articles.',
-	// 	techStack: 'React, React Router, Axios, CSS',
-	// 	link: 'https://github.com/jeeannyy/News-app',
-	// 	open: 'https://jeeannyy.github.io/News-app',
-	// },
-
-	// 'Todo Todo': {
-	// 	desc: 'A simple and clean to-do list app.',
-	// 	techStack: 'React, CSS',
-	// 	link: 'https://github.com/jeeannyy/TodoTodo',
-	// 	open: 'https://jeeannyy.github.io/TodoTodo/',
-	// },
-	// 'Weather app': {
-	// 	desc: "A weather app that provides real-time forecasts based on the user's location",
-	// 	techStack: 'React Native',
-	// 	link: 'https://github.com/jeeannyy/Weather-app',
-	// 	open: '',
-	// },
-	// Kokoatalk: {
-	// 	desc: 'A clone of the Korean messaging app KakaoTalk.',
+	// London: {
+	// 	desc: 'An experimental poster design built with Grid and Flexbox',
 	// 	techStack: 'HTML, CSS',
-	// 	link: 'https://github.com/jeeannyy/Kokoatalk',
-	// 	open: 'https://kokoatalk-jeeann.netlify.app/',
+	// 	link: 'https://github.com/jeeannyy/London',
+	// 	open: '',
 	// },
 };
 
