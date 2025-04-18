@@ -36,7 +36,6 @@ a:hover {
 
 .sidebar-logos {
 	padding-top: 20px;
-	width: 110px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

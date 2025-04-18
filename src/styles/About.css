@@ -25,12 +25,17 @@
 	font-size: 25px;
 	color: var(--slate);
 }
-
+/* ▹ ○▷○□▫︎✰  */
 .about-description li::before {
-	content: '▹    ';
+	content: '✧   ';
 	color: var(--green-bright);
 	position: absolute;
 	left: 0;
+}
+
+.tech-stack {
+	padding-right: 20px;
+	margin-bottom: 20px;
 }
 
 .tech-stack li {

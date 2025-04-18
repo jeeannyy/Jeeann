@@ -71,7 +71,7 @@ canvas {
 	font-family: 'DungGeunMo', sans-serif;
 	padding: 15px 30px;
 	cursor: pointer;
-	border: 1px solid var(--green-bright);
+	border: 3px solid var(--green-bright);
 	border-radius: 4px;
 }
 

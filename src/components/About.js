@@ -6,18 +6,18 @@ import profilePic from '../assets/me.jpg';
 const About = () => {
 	const one = (
 		<p>
-			I am a <b style={{ color: '#64ffda' }}>Full-stack Developer</b> with{' '}
+			I am a <b style={{ color: '#7cb8a6' }}>Full-stack Developer</b> with{' '}
 			<b>2+ years of experience</b>. Before starting this journey, I studied{' '}
-			<b b style={{ color: '#64ffda' }}>
+			<b b style={{ color: '#7cb8a6' }}>
 				CS, Interaction Design and Media
 			</b>
 			, and worked as a{' '}
-			<b b style={{ color: '#64ffda' }}>
+			<b b style={{ color: '#7cb8a6' }}>
 				marketing specialist
 			</b>
 			. With this multidisciplinary background, I bring a unique problem-solving
 			perspective and a keen eye for UI/UX. My passion for HCI earned me{' '}
-			<b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
+			<b style={{ color: '#7cb8a6' }}>the Best UX Award</b> at{' '}
 			<b>Europe's largest women's hackathon</b>.
 		</p>
 	);
@@ -47,7 +47,7 @@ const About = () => {
 			<div className='about-content'>
 				<div className='about-description'>
 					{one}
-					{'Technologies I Work With:'}
+					{'My Tech Stack:'}
 					<ul className='tech-stack'>
 						{tech_stack.map((tech_item, i) => (
 							<FadeInSection key={i} delay={`${i + 1}00ms`}>
@@ -55,6 +55,7 @@ const About = () => {
 							</FadeInSection>
 						))}
 					</ul>
+
 					{two}
 				</div>
 				<div className='about-image'>

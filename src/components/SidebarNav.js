@@ -11,7 +11,7 @@ const SidebarNav = () => {
 		{ label: '/home', href: '#intro' },
 		{ label: '/about', href: '#about' },
 		{ label: '/experience', href: '#experience' },
-		{ label: '/software-creations', href: '#projects' },
+		{ label: '/creations', href: '#projects' },
 	];
 
 	return (
@@ -26,9 +26,6 @@ const SidebarNav = () => {
 				</nav>
 			)}
 			<div className='sidebar-logos'>
-				<a href='mailto:jeeann.dev@gmail.com'>
-					<EmailRoundedIcon style={{ fontSize: 25 }} />
-				</a>
 				<a href='https://github.com/jeeannyy'>
 					<GitHubIcon style={{ fontSize: 24 }} />
 				</a>

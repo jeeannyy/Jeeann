@@ -3,6 +3,9 @@ import '../styles/Projects.css';
 import FolderOpenRoundedIcon from '@material-ui/icons/FolderOpenRounded';
 import FadeInSection from './FadeInSection';
 import ExternalLinks from './ExternalLinks';
+import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
+import FavoriteOutlinedIcon from '@material-ui/icons/FavoriteOutlined';
+import AttachFileOutlinedIcon from '@material-ui/icons/AttachFileOutlined';
 
 const projects = {
 	PookieBooth: {
@@ -74,7 +77,7 @@ const Projects = () => {
 	return (
 		<div id='projects'>
 			<div className='section-header'>
-				<span className='section-title'>/ software-creations</span>
+				<span className='section-title'>/ creations</span>
 			</div>
 			<div className='project-container'>
 				<ul className='projects-grid'>
@@ -83,7 +86,7 @@ const Projects = () => {
 							<li className='projects-card'>
 								<div className='card-header'>
 									<div className='folder-icon'>
-										<FolderOpenRoundedIcon style={{ fontSize: 35 }} />
+										<AttachFileOutlinedIcon style={{ fontSize: 35 }} />
 									</div>
 									<ExternalLinks
 										githubLink={project.link}

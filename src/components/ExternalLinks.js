@@ -1,6 +1,6 @@
 import React from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import OpenInBrowserIcon from '@material-ui/icons/OpenInBrowser';
+import OpenInNewOutlined from '@material-ui/icons/OpenInNewOutlined';
 
 const ExternalLinks = ({ githubLink, openLink }) => {
 	return (
@@ -10,7 +10,7 @@ const ExternalLinks = ({ githubLink, openLink }) => {
 			</a>
 			{openLink && (
 				<a className='open-icon' href={openLink}>
-					<OpenInBrowserIcon
+					<OpenInNewOutlined
 						style={{ fontSize: 25, color: 'var(--lightest-slate)' }}
 					/>
 				</a>
