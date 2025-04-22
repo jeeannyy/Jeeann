@@ -6,18 +6,18 @@ import profilePic from '../assets/me.jpg';
 const About = () => {
 	const one = (
 		<p>
-			I am a <b style={{ color: '#66b9a0' }}>Full-stack Developer</b> with{' '}
+			I am a <b style={{ color: '#7bfdb1' }}>Full-stack Developer</b> with{' '}
 			<b>2+ years of experience</b>. Before starting this journey, I studied{' '}
-			<b b style={{ color: '#66b9a0' }}>
+			<b b style={{ color: '#7bfdb1' }}>
 				CS, Interaction Design and Media
 			</b>
 			, and worked as a{' '}
-			<b b style={{ color: '#66b9a0' }}>
+			<b b style={{ color: '#7bfdb1' }}>
 				marketing specialist
 			</b>
 			. With this multidisciplinary background, I bring a unique problem-solving
 			perspective and a keen eye for UI/UX. My passion for HCI earned me{' '}
-			<b style={{ color: '#66b9a0' }}>the Best UX Award</b> at{' '}
+			<b style={{ color: '#7bfdb1' }}>the Best UX Award</b> at{' '}
 			<b>Europe's largest women's hackathon</b>.
 		</p>
 	);

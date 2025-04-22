@@ -14,15 +14,15 @@
 
 :root {
 	--dark-navy: #0d1a15;
-	--navy: #181818;
+	--navy: #141414;
 	--light-navy: #242525;
 	--lightest-navy: #282a2a;
 	--navy-shadow: rgba(13, 26, 22, 0.7);
 
 	--slate: #8892b0;
 	--light-slate: #a8b2d1;
-	--lightest-slate: #ccd6f6e3;
+	--lightest-slate: #ccd6f6;
 	--white: #e6f1ff;
-	--green-bright: #66b9a0;
+	--green-bright: #7bfdb1;
 	--green-tint: rgba(98, 252, 216, 0.1);
 }
