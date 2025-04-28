@@ -86,16 +86,16 @@ const JobList = () => {
 			jobTitle: 'Software Engineer @',
 			duration: 'FEB 2023 - FEB 2025',
 			desc: [
-				'Led front-end development of React & TypeScript media planning apps, building core features like Campaign Dashboard, Footfall Analytics, and Creative Editor',
-				'Built real-time interactive data visualisations using MUI & Chart.js, increasing internal team engagement by 50% and significantly improving data-driven decision making',
-				'Enhanced app stability with React Sentry, reducing frontend issue resolution time by ~30%',
+				'Led front-end development of admin and client-facing platforms using React and TypeScript, building core features including the Campaign Dashboard, Footfall Analytics, Sensor Monitoring, and Creative Editor',
+				'Built interactive data visualisations across key pages, increasing engagement among internal teams by 50% and enhancing campaign insights, budget tracking, and data-driven decision-making',
+				'Achieved 90%+ test coverage with Playwright and implemented React Sentry, improving error diagnosis time and significantly reducing user-reported bugs',
 			],
 		},
 		'Code First Girls': {
 			jobTitle: 'Instructor @',
 			duration: 'Nov 2022 - Present',
 			desc: [
-				'Co-taught web development courses for 50+ beginners through hands-on projects, focusing on practical coding skills',
+				'Taught web development courses to 60+ beginners through live coding, hands-on project guidance, real-time debugging support, and technical assistance during final group projects',
 			],
 		},
 
@@ -104,21 +104,21 @@ const JobList = () => {
 			duration: 'OCT 2022',
 			desc: [
 				'Received the Best UX Award at Europe’s largest hackathon for women',
-				'Developed ‘Banktree,’ an impact investment app funding green projects via round-ups',
-				'Designed the UI in Figma and built the prototype with React.js',
+				'Developed ‘Banktree’, an impact investment app funding green projects via round-ups',
+				'Sketched an MVP and built a prototype using React, designed the user interface with Figma',
 			],
 		},
 
 		freeCodeCamp: {
-			jobTitle: 'Open Source Contributor @',
+			jobTitle: 'Technical Translator @',
 			duration: 'SEP 2022 - Present',
 			desc: [
-				'Translated technical articles from English to Korean, averaging 5K views per article and helping non-English-speaking developers access high-quality learning resources',
+				'Translated technical articles from English to Korean, helping non-English-speaking developers access high-quality learning resources and averaging 10K views per article',
 			],
 		},
 
 		TikTok: {
-			jobTitle: 'AI Data Operator Specialist @',
+			jobTitle: 'AI Data Specialist @',
 			duration: 'SEP 2020 - FEB 2022',
 			desc: [
 				'Collaborated with the AI-Lab NLP & Machine Learning team on a machine translation project and curated documentation on Korean trends',

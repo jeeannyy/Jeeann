@@ -6,27 +6,26 @@ import profilePic from '../assets/me.jpg';
 const About = () => {
 	const one = (
 		<p>
-			I am a <b style={{ color: '#7bfdb1' }}>Full-stack Developer</b> with{' '}
-			<b>2+ years of experience</b>. Before starting this journey, I studied{' '}
-			<b b style={{ color: '#7bfdb1' }}>
-				CS, Interaction Design and Media
+			I’m a <b style={{ color: '#7bfdb1' }}>Full-stack Developer</b> with 2+
+			years of experience building scalable, user-centred platforms. With a
+			background in{' '}
+			<b style={{ color: '#7bfdb1' }}>
+				Computer Science and Interaction Design
 			</b>
-			, and worked as a{' '}
-			<b b style={{ color: '#7bfdb1' }}>
-				marketing specialist
-			</b>
-			. With this multidisciplinary background, I bring a unique problem-solving
-			perspective and a keen eye for UI/UX. My passion for HCI earned me{' '}
-			<b style={{ color: '#7bfdb1' }}>the Best UX Award</b> at{' '}
-			<b>Europe's largest women's hackathon</b>.
+			, I take a problem-solving approach to engineering challenges, with a
+			strong focus on intuitive UI/UX. My passion for crafting impactful digital
+			experiences was recognised with a{' '}
+			<b style={{ color: '#7bfdb1' }}>Best UX Award</b> at Europe's largest
+			women's hackathon, and I was endorsed for a{' '}
+			<b style={{ color: '#7bfdb1' }}>Global Talent Visa</b> by the UK
+			government.
 		</p>
 	);
 
 	const two = (
 		<p>
-			Outside of work, I love travelling and discovering new music and artists —
-			especially R&B and jazz. I'm also into exploring healthy recipes and
-			swimming in lakes.
+			Outside of work, I enjoy travelling, discovering new music (especially R&B
+			and jazz), and exploring healthy recipes.
 		</p>
 	);
 
@@ -47,7 +46,7 @@ const About = () => {
 			<div className='about-content'>
 				<div className='about-description'>
 					{one}
-					{'My Tech Stack:'}
+					{'Tech I work with:'}
 					<ul className='tech-stack'>
 						{tech_stack.map((tech_item, i) => (
 							<FadeInSection key={i} delay={`${i + 1}00ms`}>
@@ -56,7 +55,7 @@ const About = () => {
 						))}
 					</ul>
 
-					{two}
+					{/* {two} */}
 				</div>
 				<div className='about-image'>
 					<img src={profilePic} alt='My profile' />
