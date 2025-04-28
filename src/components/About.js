@@ -35,7 +35,7 @@ const About = () => {
 		'Javascript ES6+',
 		'Next.js',
 		'Node.js (Express.js)',
-		'Git',
+		'HTML5 & CSS3',
 	];
 
 	return (
