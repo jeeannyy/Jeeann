@@ -64,7 +64,7 @@ ul {
 
 .job-description li::before {
 	content: '✧    ';
-	color: var(--green-bright);
+	color: #eafd7b;
 	position: absolute;
 	left: 0;
 }

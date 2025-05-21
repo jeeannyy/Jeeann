@@ -46,12 +46,12 @@ const projects = {
 		open: 'https://painting-jeeann.netlify.app',
 	},
 
-	// 'Drum Kit': {
-	// 	desc: 'A fun and interactive drum app anyone can play.',
-	// 	techStack: 'JavaScript, HTML, CSS',
-	// 	link: 'https://github.com/jeeannyy/Drum-Kit',
-	// 	open: 'https://drumkit-jeeann.netlify.app',
-	// },
+	'Drum Kit': {
+		desc: 'A fun and interactive drum app anyone can play.',
+		techStack: 'JavaScript, HTML, CSS',
+		link: 'https://github.com/jeeannyy/Drum-Kit',
+		open: 'https://drumkit-jeeann.netlify.app',
+	},
 
 	'Bad Religion': {
 		desc: 'An experimental poster design built with Grid and Flexbox',
