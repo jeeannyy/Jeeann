@@ -20,6 +20,11 @@ const projects = {
 		link: 'https://github.com/jeeannyy/feeling',
 		open: 'https://tellmeyourvibe.vercel.app',
 	},
+	'That Girl Routine': {
+		desc: 'A cute self-care and desktop productivity app',
+		techStack: 'Electron, React, TypeScript, CSS',
+		link: 'https://github.com/jeeannyy/That-girl',
+	},
 	'Kimchi shop': {
 		desc: 'An e-commerce app for selling Korea’s korgeous kimchi',
 		techStack: 'Redux, React, Axios, Bootstrap',
@@ -47,7 +52,7 @@ const projects = {
 	},
 
 	'Drum Kit': {
-		desc: 'A fun and interactive drum app anyone can play.',
+		desc: 'A fun and interactive drum app anyone can play',
 		techStack: 'JavaScript, HTML, CSS',
 		link: 'https://github.com/jeeannyy/Drum-Kit',
 		open: 'https://drumkit-jeeann.netlify.app',
