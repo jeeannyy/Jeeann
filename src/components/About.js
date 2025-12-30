@@ -6,7 +6,7 @@ import profilePic from '../assets/me.jpg';
 const About = () => {
 	const one = (
 		<p>
-			I’m a <b style={{ color: '#7bfdb1' }}>Full-stack Developer</b> with 2+
+			I’m a <b style={{ color: '#7bfdb1' }}>Full-stack Developer</b> with 3
 			years of experience building scalable, user-centred platforms. With a
 			background in{' '}
 			<b style={{ color: '#7bfdb1' }}>
@@ -54,8 +54,6 @@ const About = () => {
 							</FadeInSection>
 						))}
 					</ul>
-
-					{/* {two} */}
 				</div>
 				<div className='about-image'>
 					<img src={profilePic} alt='My profile' />

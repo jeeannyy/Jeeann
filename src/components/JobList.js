@@ -82,13 +82,22 @@ const JobList = () => {
 	const [value, setValue] = React.useState(0);
 
 	const experienceItems = {
+		'Bauer Media Group': {
+			jobTitle: 'Frontend Engineer @',
+			duration: 'JUL 2025 - Present',
+			desc: [
+				'Delivered core product UI for a large-scale radio and podcast platform serving over 60M weekly listeners, including search results, episode page, and playback-related UI, directly impacting content discovery and listening flows',
+				'Leveraged Storybook and lightweight tests during development to iterate on UI changes and align implementations with design and product teams',
+				'Enhanced accessibility across core UI through improved semantic labelling and keyboard support, and documented shared guidelines for consistent implementation',
+			],
+		},
 		StoreBoost: {
-			jobTitle: 'Software Engineer @',
+			jobTitle: 'Frontend Engineer @',
 			duration: 'FEB 2023 - FEB 2025',
 			desc: [
-				'Led front-end development of admin and client-facing platforms using React and TypeScript, building core features including the Campaign Dashboard, Footfall Analytics, Sensor Monitoring, and Creative Editor',
-				'Built interactive data visualisations across key pages, increasing engagement among internal teams by 50% and enhancing campaign insights, budget tracking, and data-driven decision-making',
-				'Achieved 90%+ test coverage with Playwright and implemented React Sentry, improving error diagnosis time and significantly reducing user-reported bugs',
+				'Built interactive data visualisations across key pages using React and TypeScript, increasing internal engagement by 50% and enhancing campaign insights, budget tracking, and data-driven decision-making',
+				'Modernised the front-end stack by upgrading React and MUI 4 to 5, resolving 60+ UI issues and improving load speed by 10%, resulting in a more consistent, user-centric experience',
+				'Collaborated with backend engineers to define and integrate RESTful APIs, and implemented React Sentry, improving error diagnosis time and significantly reducing user-reported bugs',
 			],
 		},
 		'Code First Girls': {
@@ -100,7 +109,7 @@ const JobList = () => {
 		},
 
 		'Athena Hackathon': {
-			jobTitle: 'Frontend Developer @',
+			jobTitle: 'Frontend Engineer @',
 			duration: 'OCT 2022',
 			desc: [
 				'Received the Best UX Award at Europe’s largest hackathon for women',
@@ -111,7 +120,7 @@ const JobList = () => {
 
 		freeCodeCamp: {
 			jobTitle: 'Technical Translator @',
-			duration: 'SEP 2022 - Present',
+			duration: 'SEP 2022 - OCT 2023',
 			desc: [
 				'Translated technical articles from English to Korean, helping non-English-speaking developers access high-quality learning resources and averaging 10K views per article',
 			],
